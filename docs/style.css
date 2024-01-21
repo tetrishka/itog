@@ -3,7 +3,10 @@ body {
 }
 
 .page {
-    width: 900px;
+    max-width: 1000px;
+    width: 60%;
+    min-width: 350px;
+    height: auto;
     margin: auto;
     margin-bottom: 10px;
     background-color: #131313;
@@ -28,6 +31,7 @@ body {
 .menu-list {
     display: flex;
     list-style-type: none;
+    transform: translateX(-30%);
 }
 
 .menu-item:not(li:last-child) {
@@ -40,9 +44,10 @@ body {
 }
 
 .main {
-    max-width: 900px;
-    height: 305px;
-    margin-bottom: 30px;
+    width: 80%;
+    min-width: 350px;
+    min-height: 300px;
+    margin-bottom: 8%;
     margin-left: auto;
     margin-right: auto;
 
@@ -59,23 +64,30 @@ body {
 }
 
 .img {
-    width: 305px;
-    height: 305px;
+    max-width: 305px;
+    width: 40%;
+    max-height: 305px;
+    height: 40%;
+
     flex-shrink: 0;
     border-radius: 15px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    margin-right: 20px;
+    margin: auto;
+    margin-right: 5%;
+      margin-bottom: 2%;
     float: left;
 }
 
 .main-text {
     color: #FFF;
     font-size: 18px;
+    margin: auto;
 }
 
 .page_title {
     color: #FFF;
     font-size: 32px;
+    margin: auto;
 }
 
 .button-next {
