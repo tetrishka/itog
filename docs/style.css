@@ -15,6 +15,20 @@ body {
     border-radius: 0 0 15px 15px;
 }
 
+@media screen and (max-width: 768px) {
+    .menu-item {
+        width: 10%;
+        max-width: 10%;
+        margin: auto auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu-item {
+        width: 15%;
+    }
+}
+
 .header {
     display: flex;
     justify-content: space-around;
